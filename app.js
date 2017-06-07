@@ -4,9 +4,9 @@ Write a function called sum() that takes in two numbers as arguments and then re
 "The sum of 4 and 7 is 11."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
-function sum(num1, num2){
-  var sumOf2Nums = num1 + num2;
-  var arrayToReturn = [sumOf2Nums, 'The sum of ' + num1 + ' and ' + num2 + ' is ' + sumOf2Nums + '.'];
+function sum(sumNum1, sumNum2){
+  var sumOf2Nums = sumNum1 + sumNum2;
+  var arrayToReturn = [sumOf2Nums, 'The sum of ' + sumNum1 + ' and ' + sumNum2 + ' is ' + sumOf2Nums + '.'];
   return arrayToReturn;
 }
 
@@ -21,7 +21,11 @@ Write a function called multiply() that takes in two numbers as arguments and re
 "The product of 4 and 7 is 28."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
-// Write your code here
+function multiply(multNum1, multNum2){
+  multOfNum = multNum1 * multNum2;
+  var multArrayToReturn = [multOfNum, 'The product of ' + multNum1 + " and " + multNum2 + " is " + multOfNum + "."];
+  return multArrayToReturn;
+}
 
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(4,7);
