@@ -76,8 +76,12 @@ Write a function called multiplyArray() that takes an array of numbers as its ar
 "The numbers 2,3,4 have a product of 24."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
-// Write your code here
-
+function multiplyArray(multArray0, multArray1,multArray2){
+  var finalMult = multArray[0] * multArray[1] * multArray[2];
+  var outputArray = [finalMult, "The numbers " + multArray[0] + "," + multArray[1] + "," + multArray[2] + " have a product of " + finalMult + "."];
+  return outputArray;
+}
+var multArray = [2,3,4];
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
 
