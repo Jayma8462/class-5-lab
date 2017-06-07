@@ -57,9 +57,9 @@ Write a function called sumArray() that takes in an array of numbers as its argu
 "2,3,4 was passed in as an array of numbers, and 9 is their sum."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
-function sumArray(sum1, sum2, sum3){
-  var sumNumbersInArray = sum1 + sum2 + sum3;
-  var solutionToSumNums = [sumNumbersInArray, sum1 + "," + sum2 + "," + sum3 + " was passed in as an array of numbers, and " + sumNumbersInArray + " is their sum."];
+function sumArray(testArray0, testArray1, testArray2){
+  var sumNumbersInArray = testArray[0] + testArray[1] + testArray[2];
+  var solutionToSumNums = [sumNumbersInArray, testArray[0] + "," + testArray[1] + "," + testArray[2] + " was passed in as an array of numbers, and " + sumNumbersInArray + " is their sum."];
   return solutionToSumNums;
 }
 
